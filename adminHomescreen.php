@@ -28,14 +28,15 @@ registerTab(group,"volunteeringApprovalsTab","volunteeringApprovalsDiv");
 <title>Homescreen - YouSee</title>
 
 </head>
-<body class="wrapper">
+<body class="wrapper" style="background:#eeeeee;" >
+<div style="background:white;" >
 <?php include("header_navbar.php");
 if (!$_SESSION['SESS_USER_TYPE']=="A")
 {
 	header(header("Location: login_failed"));
 }
 ?>
-<div style="background:white;">
+
 
 <div id="tab" class="tab">
 <ul class="tabContainer">

@@ -16,7 +16,8 @@ try {
 	$mail->Port       = 2525;                    // set the SMTP server port
 	$mail->Host       = "mail.yousee.in"; // SMTP server
 	$mail->Username   = "contact@yousee.in";     // SMTP server username
-	$mail->Password   = "Tactcon1";            // SMTP server password
+	$mail->Password   = "Tactcon1"; 	// SMTP server password
+	$mail->SMTPDebug=2;
 	
 
 	$mail->AddReplyTo("contact@yousee.in","Yousee");

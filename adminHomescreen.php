@@ -48,9 +48,10 @@ if (!$_SESSION['SESS_USER_TYPE']=="A")
 	</div>
 </ul>
 </div>
-
+<div style="margin-top:10px;">
 <div style="display: block;" id="regApprovalsDiv"><?php include('admin/registrationApprovalForm.php'); ?></div>
 <div style="display: none;" id="volunteeringApprovalsDiv"><?php include('admin/volunteeringApprovalForm.php'); ?></div>
+</div>
 <?php
 
 /*Restore Active tab after reloading the page*/

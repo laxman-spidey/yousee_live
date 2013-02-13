@@ -66,7 +66,7 @@ else
 	name="approveVolunteeringRequests" method="post" action="redirect.php">
 <input name="formname" type="hidden" value="volunteeringApprovalForm" />
 <table align="center" id="altColorTable" border="0">
-	<tr class="alt">
+	<tr class="alt" style="font-weight:bold;">
 		<td>S.No</td>
 		<td>Donor Name</td>
 		

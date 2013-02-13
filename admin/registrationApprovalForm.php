@@ -98,7 +98,7 @@ function generateDonorTable()
 	action="redirect.php"><!-- a hidden field to identify which form is submitted.. field name is default for all forms value will be the name of form-->
 <input name="formname" type="hidden" value="donorApproveRegistration" />
 <table align="center" id="altColorTable" border="0">
-	<tr class="alt">
+	<tr class="alt" style="font-weight:bold;">
 		<td>S.No</td>
 		<td>Username</td>
 		<td>Gender</td>

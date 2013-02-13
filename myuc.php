@@ -147,7 +147,7 @@ registerTab(group,"updateVolunteeringTab","updateVolunteeringDiv");
 	</table>
 </div>
 <div style="display:none;" id="updateVolunteeringDiv">
-	<?php include 'volunteering/updateActivity.php';?>
+	<?php include 'Volunteering/updateActivity.php';?>
 </div>
 <br />
 <br />

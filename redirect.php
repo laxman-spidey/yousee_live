@@ -12,6 +12,10 @@ if (isset($_POST))
 {
 	$_SESSION['POST_DATA']=$_POST;
 }
+if (isset($_GET))
+{
+	$_SESSION['activeTab']=$_GET['activeTab'];
+}
 if ($_SESSION['SESS_USER_TYPE']=="D")
 {
 	//echo "<script>alert(".$_POST['formname'].")</script>";
@@ -51,7 +55,7 @@ elseif ($_SESSION['SESS_USER_TYPE']=="A")
 		}
 		if($formname=="volunteeringApprovalForm")
 		{
-			$_SESSION['activeTab']="volApprovalsTab";
+			$_SESSION['activeTab']="volunteeringApprovalsTab";
 
 		}
 	}

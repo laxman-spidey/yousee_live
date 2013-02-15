@@ -1,4 +1,7 @@
 <?php
+
+//generates a html table from a query result
+
 class tableUtility
 {
 	private $queryResult;

@@ -1,0 +1,6 @@
+
+select d.donor_id, d.displayname, d.village_town, d.preferred_email, d.mobile_phone_no, pc.certificate_id,pr.partner_id
+from donors d, postpay_certificates pc, project_certificates pr
+WHERE d.donor_id=pc.donor_id
+AND pc.certificate_id=pr.certificate_id
+AND pr.partner_id='2'

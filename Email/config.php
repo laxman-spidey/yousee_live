@@ -13,7 +13,7 @@ try {
 
 	$mail->IsSMTP();                           // tell the class to use SMTP
 	$mail->SMTPAuth   = true;                  // enable SMTP authentication
-	$mail->Port       = 2525;                    // set the SMTP server port
+	$mail->Port       = 25;                    // set the SMTP server port
 	$mail->Host       = "mail.yousee.in"; // SMTP server
 	$mail->Username   = "contact@yousee.in";     // SMTP server username
 	$mail->Password   = "Tactcon1"; 	// SMTP server password

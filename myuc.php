@@ -117,6 +117,7 @@ registerTab(group,"volunteeringTab","volunteerDiv");
 registerTab(group,"financialTab","financialDiv");
 registerTab(group,"wasteTab","wasteDiv");
 registerTab(group,"updateVolunteeringTab","updateVolunteeringDiv");
+registerTab(group,"myInfoTab","myInfoDiv");
 
 </script>
 
@@ -127,6 +128,7 @@ registerTab(group,"updateVolunteeringTab","updateVolunteeringDiv");
     <a onclick="showTab('donorTabs','financialTab')" class="tabLink" id="financialTab">Financial Donations</a>
     <a onclick="showTab('donorTabs','wasteTab')" class="tabLink" id="wasteTab">Waste Donations</a>
     <a onclick="showTab('donorTabs','updateVolunteeringTab')" class="tabLink" id="updateVolunteeringTab">Update Volunteering Info</a>
+    <a onclick="showTab('donorTabs','myInfoTab')" class="tabLink" id="myInfoTab">Update Volunteering Info</a>
 </div>
 </ul>
 </div>
@@ -147,6 +149,9 @@ registerTab(group,"updateVolunteeringTab","updateVolunteeringDiv");
 	</table>
 </div>
 <div style="display:none;" id="updateVolunteeringDiv">
+	<?php include 'Volunteering/updateActivity.php';?>
+</div>
+<div style="display:none;" id="myInfoDiv">
 	<?php include 'Volunteering/updateActivity.php';?>
 </div>
 <br />
